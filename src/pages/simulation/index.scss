@@ -1,0 +1,100 @@
+.mnjsIndex {
+  display : flex;
+  width   : 1366px;
+  margin  : 0 auto;
+  position: relative;
+  left    : 183px;
+
+  .left {
+    width           : 1000px;
+    height          : 500px;
+    border-radius   : 8px;
+    margin-right    : 10px;
+    background-color: #fff;
+    padding-top     : 20px;
+    margin-bottom   : 20px;
+
+    .headerImg {
+      display: block;
+      margin : 0 auto 24px;
+    }
+
+    .question {
+      width         : 860px;
+      margin        : 0 auto 20px;
+      display       : flex;
+      flex-direction: column;
+      align-items   : center;
+
+      .question_title {
+        width        : 910px;
+        color        : #de2910;
+        margin-bottom: 20px;
+
+        span:last-child {
+          color: #27282b;
+        }
+      }
+
+      .question_answer {
+        width           : 856px;
+        height          : 100px;
+        border-radius   : 4px;
+        background-color: #f5f5f6;
+        padding         : 10px 16px;
+        box-sizing      : border-box;
+
+        .el-radio-group {
+          display    : flex;
+          align-items: center;
+          flex-wrap  : wrap;
+          line-height: 25px;
+
+          .el-radio {
+            color        : #b6b9c0;
+            font-size    : 18px;
+            width        : 50%;
+            margin-bottom: 20px;
+          }
+        }
+
+        .el-checkbox-group {
+          display    : flex;
+          align-items: center;
+          flex-wrap  : wrap;
+          line-height: 25px;
+
+          .el-checkbox {
+            color        : #b6b9c0;
+            font-size    : 18px;
+            width        : 50%;
+            margin-bottom: 20px;
+          }
+        }
+      }
+    }
+  }
+
+  .right {
+    width: 266px;
+
+  }
+}
+
+.el-radio__input.is-checked .el-radio__inner {
+  border-color: #d39400;
+  background  : #d39400;
+}
+
+.el-radio+.el-radio {
+  margin-left: 0;
+}
+
+.el-checkbox__input.is-checked .el-checkbox__inner {
+  background-color: #d39400;
+  border-color    : #d39400;
+}
+
+.el-checkbox+.el-checkbox {
+  margin-left: 0;
+}

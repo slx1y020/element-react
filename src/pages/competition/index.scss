@@ -1,0 +1,102 @@
+.jsxzIndex{
+  width: 1000px;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 8px;
+  padding-top: 20px;
+  .headerImg{
+    display: block;
+    margin: 0 auto 24px ;
+  }
+  .titleImg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    .title{
+      margin: 0 12px;
+      font-weight: bold;
+      font-size: 14px;
+      color: #d39400;
+    }
+  }
+  .box{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .textcontent{
+      width: 818px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      .text{
+        background: url('../img//文字灰色杂色背景.png') no-repeat;
+        background-size: 100%;
+        font-size: 20px;
+        color: #27282b;
+        line-height: 28px;
+        text-indent: 2rem;
+        padding: 29px 14px;
+        border: 1px solid #d39400;
+      }
+    }
+  }
+  .footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px auto;
+    padding-bottom: 80px;
+    .Image{
+      display: flex;
+      align-items: center;
+    }
+  }
+}
+.z_7{
+  width: 18px;
+  height: 170px;
+  background-color: #FFE1AB;
+  border: 1px solid #d39400;
+  border-right: 0;
+  margin-left: 12px;
+}
+.y_7{
+  width: 18px;
+  height: 170px;
+  background-color: #FFE1AB;
+  border: 1px solid #d39400;
+  border-left: 0;
+  margin-right: 12px;
+}
+.u_8{
+  width: 788px;
+  height: 18px;
+  background-color: #FFE1AB;
+  border: 1px solid #d39400;
+  border-bottom: 0;
+}
+.d_8{
+  width: 788px;
+  height: 18px;
+  background-color: #FFE1AB;
+  border: 1px solid rgb(211, 148, 0);
+  border-top: 0;
+}
+.interval{
+  margin: 0 4px;
+  color: #d39400;
+}
+.line1{
+  width: 226px;
+  height: 1px;
+  background:linear-gradient(to right, rgba(211, 148, 0, 0) 0%, rgba(211, 148, 0, 0.2) 5%, rgba(211, 148, 0, 0.4) 10%, rgba(211, 148, 0, 0.6) 90%, rgba(211, 148, 0, 0.8) 95%, rgb(211, 148, 0,) 100%);
+}
+.line2{
+  width: 226px;
+  height: 1px;
+  background:linear-gradient(to left, rgba(211, 148, 0, 0) 0%, rgba(211, 148, 0, 0.2) 5%, rgba(211, 148, 0, 0.4) 10%, rgba(211, 148, 0, 0.6) 90%, rgba(211, 148, 0, 0.8) 95%, rgb(211, 148, 0,) 100%);
+}

@@ -1,0 +1,41 @@
+.homeIndex{
+  width: 100%;
+  min-height: 100vh;
+  overflow-y: auto;
+  background: #f5f5f6 url('../../pages/img/PC端海报.jpg') no-repeat;
+  background-size: 100%;
+  .content{
+    width: 100%;
+    padding-top: 30%;
+    .nav{
+      width: 838px;
+      height: 134px;
+      background-color: #ffffff;
+      opacity: 0.94;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      box-sizing: border-box;
+      padding: 30px 92px;
+      border-radius: 8px;
+      margin: 0 auto;
+      .list{
+        display: flex;
+        flex-direction: column;
+        cursor: pointer;
+        user-select: none;
+        img{
+          margin-bottom: 8px;
+        }
+        p{
+          font-size: 12px;
+          font-weight: bold;
+          color: #d20000;
+        }
+      }
+    }
+    .box{
+      margin-top: 18px;
+    }
+  }
+}
