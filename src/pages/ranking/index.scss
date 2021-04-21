@@ -1,0 +1,90 @@
+.jspmIndex {
+  width           : 1000px;
+  margin          : 0 auto 24px;
+  box-sizing      : border-box;
+  background-color: #fff;
+  padding-bottom: 32px;
+
+  .headerImg {
+    display: block;
+    margin : 0 auto 24px;
+    padding-top: 20px;
+  }
+  .box{
+    box-sizing: border-box;
+    margin: 0 14px;
+    background-color: #cc0111;
+    padding: 24px;
+    .box-1{
+      border: 1px solid #fed491;
+      border-radius: 12px;
+      padding: 10px;
+      .box-2{
+        border: 6px solid #fed491;
+        border-radius: 12px;
+        background-color: #fff;
+        .box-header{
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+          color: #5c5f64;
+          font-size: 12px;
+          margin-top: 20px;
+          div{
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          }
+        }
+        .box-content{
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+          color: #27282b;
+          font-size: 13px;
+          border-bottom: 1px solid #e8e8e9;
+          margin: 20px 0 ;
+          div:nth-child(1){
+            width: 50px;
+            height: 50px;
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+          div:nth-child(2){
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+          div:nth-child(3){
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+          div:nth-child(4){
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+          div:nth-child(5){
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+          div:nth-child(6){
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+        }
+      }
+    }
+  }
+}

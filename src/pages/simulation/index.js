@@ -28,18 +28,6 @@ export default class index extends Component {
     }else{
       clearInterval(int)
     }
-    // if (minute === 0 && second === 0) {
-    //   minute = 9;
-    //   second = 59;
-    // } else if (minute >= 0) {
-    //   if (second > 0) {
-    //     second--;
-    //   } else if (second === 0) {
-    //     minute--;
-    //     second = 59;
-    //   }
-    // }
-
 
   }
   componentWillUnmount(){
@@ -50,7 +38,7 @@ export default class index extends Component {
     return (
       <div className="mnjsIndex">
         <div className="left">
-          <img className="headerImg" src={require('../img/模拟记录标题.png').default} alt="" />
+          <img className="headerImg" src={require('../img/模拟竞赛标题.png').default} alt="" />
           <div className="question">
             <div className="question_title">
               1.<span>【单选题 5分】</span><span>中国共产党第一次全国代表大会在（）开幕。</span>
